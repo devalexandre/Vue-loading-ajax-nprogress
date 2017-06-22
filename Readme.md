@@ -5,9 +5,11 @@ This is a plugin for add nprogress on all ajax calls from vuejs.
 
 
 On your app.js
-```javascript
-import Loading from 'Loading'
 
+```javascript
+
+import Loading from "vue-loading-ajax-nprogress"
+import 'nprogress/nprogress.css'
 Vue.use(Loading);
 
 ```
